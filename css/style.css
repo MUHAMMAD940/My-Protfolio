@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+img,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*************** Common css end **************/
+
+
+
+/*************** Menu part start **************/
+.main_menu {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.main_menu a p {
+    color: #f03087;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    color: #f1f5f4;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 40px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover {
+    color: #f03087;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 3px;
+    background: #f03087;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -10px;
+    width: 0;
+    height: 3px;
+    background: #f03087;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link.active{
+    color: #f03087;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link.active::after {
+    width: 100%;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link.active::before {
+    width: 100%;
+}
+
+
+.menu_fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #000;
+    z-index: 999;
+}
+
+/*************** Menu part end **************/
+
+/*************** Banner part start **************/
+
+.banner_main {
+    padding: 200px 0 180px;
+}
+
+.overly {
+    background: rgba(0, 0, 0, 0.53);
+    opacity: 1;
+}
+
+.banner_img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_text h3 {
+    color: #f1f5f4;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 12px;
+}
+
+.banner_text h1 {
+    color: #f1f5f4;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+.banner_text span {
+    color: #f03087;
+}
+
+.banner_text p {
+    color: #f1f5f4;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 18px;
+}
+
+.banner_text a {
+    color: #f03087;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem 2.5rem;
+    border: 2px solid #f03087;
+    border-radius: 50px;
+    margin-right: 60px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.banner_text a:hover {
+    color: #f1f5f4;
+    background: #f03087;
+}
+
+.banner_icon {
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+}
+
+.banner_icon ul li {
+    margin: 0 0 8px;
+}
+
+
+.banner_icon ul li a {
+    color: #f1f5f4;
+    font-size: 18px;
+}
+
+.banner_icon ul li:hover .fb {
+    color: #2c52a2;
+    transition: all linear .3s;
+}
+
+.banner_icon ul li:hover .insta {
+    color: #DD4B39;
+    -webkit-transition: all linear .3s;
+}
+
+.banner_icon ul li:hover .twit {
+    color: #00ACEE;
+    -moz-transition: all linear .3s;
+}
+
+.banner_icon ul li:hover .git {
+    color: #333333;
+    -o-transition: all linear .3s;
+}
+
+.banner_icon ul li:hover .linkd {
+    color: #0077B5;
+    -ms-transition: all linear .3s;
+}
+
+
+/*************** Banner part end **************/
+
+/*************** About part start **************/
+
+#about_part {
+    padding: 100px 0;
+}
+
+.title_head h2 {
+    color: #222;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.title_head h2::after {
+    position: absolute;
+    content: '';
+    background: #f03087;
+    width: 80px;
+    height: 3px;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about_text h4 {
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.about_text span {
+    color: #f03087;
+}
+
+.about_text p {
+    color: #4c4d4d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.btn {
+    padding: 12px 43px;
+    background: #f03087;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.btn a span {
+    color: #f1f5f4;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.btn:hover {
+    background: #f70070;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.counter_part {
+    border-right: 1px dotted #8e9a9d;
+}
+
+.counter_part h3 {
+    color: #8e9a9d;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+.counter_part p {
+    color: #4c4d4d;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+
+.skill_part h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress_bar .single-progressbar h4 {
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+}
+
+.progress_bar .proggress {
+    border-radius: 50px !important;
+}
+
+.progress_bar .progressbar {
+    border-radius: 50px !important;
+}
+
+/*************** About part end **************/
+
+/*************** Service part start **************/
+
+#service_part {
+    padding: 100px 0;
+    background: #fafaf2;
+}
+
+.service_inner {
+    border: 1px solid #e8e8e8;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.service_inner:hover {
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(60, 72, 88, 0.15);
+    border-bottom: 2px solid #f03087;
+    transform: translateY(-10px);
+}
+
+.service_inner:hover h5 {
+    color: #f03087;
+}
+
+.service_icon i {
+    color: #f03087;
+    font-size: 44px;
+}
+
+.service_inner:hover i {
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+}
+
+.service_inner:hover h5 {
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+}
+
+.service_inner:hover p {
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+}
+
+.service_text h5 {
+    color: #444;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.service_text p {
+    color: #4c4d4d;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+/*************** Service part end **************/
+
+/*************** Protfolio part start **************/
+
+#protfolio_part {
+    padding: 100px 0;
+}
+
+.protfolio_part img {
+    width: 100%;
+    height: 400px;
+}
+
+.protfolio_part {
+    overflow: hidden;
+}
+
+.protfolio_part:hover img {
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+/*************** Protfolio part end **************/
+
+/*************** Contact part start **************/
+
+#contact_part {
+    padding: 100px 0 80px;
+    background: #fafaf2;
+}
+
+.contact_text h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_text h3 span {
+    color: #f03087;
+}
+
+.contact_text p {
+    color: #4c4d4d;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.contact_control i {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #f03087;
+    font-size: 36px;
+}
+
+.contact_control i.fa-phone-square-alt {
+    font-size: 42px;
+    top: 2px;
+}
+
+.contact_control span {
+    color: #4c4d4d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+
+.contact_control {
+    position: relative;
+}
+
+.contact_control p {
+    margin-left: 50px;
+    padding-top: 5px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+
+.contact_icon a {
+    color: #fff;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background: #f03087;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.contact_icon .fb:hover {
+    background: #2c52a2;
+    transition: all linear .3s;
+}
+
+.contact_icon .insta:hover {
+    background: #DD4B39;
+    transition: all linear .3s;
+}
+
+.contact_icon .twit:hover {
+    background: #00ACEE;
+    transition: all linear .3s;
+}
+
+.contact_icon .git:hover {
+    background: #333333;
+    transition: all linear .3s;
+}
+
+.contact_icon .linkd:hover {
+    background: #0077B5;
+    transition: all linear .3s;
+}
+
+
+.contact_part input {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dae1e3;
+    border-radius: 5px;
+    padding: .810rem .96rem;
+    margin-bottom: 1rem;
+}
+
+.contact_part textarea {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 165px;
+    background: #fff;
+    border: 1px solid #dae1e3;
+    border-radius: 5px;
+    padding: .810rem .96rem;
+    margin-bottom: 1rem;
+}
+
+.contact_part .submit {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 43px;
+    background: #f03087;
+    border: 0;
+    border-radius: 50px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.contact_part .submit:hover {
+    background: #fa0e79;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/*************** Contact part end **************/
+
+/*************** Foort part start **************/
+
+#footer_part {
+    padding: 15px 0;
+    background: #fa0e79;
+}
+
+.footer_text p {
+    color: #f1f5f4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_text span {
+    color: #444;
+}
+
+/*************** Foort part end **************/
+
+.btop {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #f03087;
+    color: #f1f5f4;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: none;
+}
