@@ -16,6 +16,7 @@ $(function () {
         strings: [
             'Muhammad',
             'Designer',
+            'Developer',
             'Freelancer'
         ],
         typeSpeed: 80,
@@ -131,7 +132,8 @@ $(function () {
         }
     });
 
-
+    //Wow js
+    new WOW().init();
     
     
 
