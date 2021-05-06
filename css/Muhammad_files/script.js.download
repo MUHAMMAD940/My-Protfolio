@@ -135,19 +135,6 @@ $(function () {
     //Wow js
     new WOW().init();
     
-    //Email js
-   function sendMail(params){
-        var tempParams = {
-            from_name: document.getElementById("fromName").value,
-            to_name: document.getElementById("to_name").value,
-            message: document.getElementById("msg").value,
-        }
-        emailjs.send('service_lfqaa6o', 'template_nt9dp07', tempParams)
-        .then(function(res){
-            console.log("successfull", res.status)
-        })
-    }
     
-
 
 });

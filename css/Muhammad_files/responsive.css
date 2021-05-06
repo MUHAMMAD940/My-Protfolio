@@ -1,0 +1,257 @@
+@media(min-width: 1200px) {
+
+    /**************** Banner part start ****************/
+/*
+    .banner_icon {
+        bottom: -30px;
+    }
+*/
+
+    /**************** Banner part end ****************/
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /**************** Banner part start ****************/
+    .banner_icon {
+        bottom: -30px;
+    }
+
+    /**************** Banner part end ****************/
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    /**************** Banner part start ****************/
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        margin-left: 24px;
+    }
+
+    .banner_icon {
+        bottom: -30px;
+    }
+
+    /**************** Banner part end ****************/
+
+    /**************** Counter part start ****************/
+    .counter_part h3 {
+        font-size: 40px;
+    }
+
+    /**************** Counter part end ****************/
+
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+
+    /**************** Menu part start ****************/
+
+    .main_menu button i {
+        color: #f1f5f4;
+        font-size: 22px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        line-height: 40px;
+        margin-left: 0;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link::before {
+        display: none;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav {
+        background: #000;
+        margin-top: 7px;
+        padding: 15px 0;
+    }
+
+    .menu_mar {
+        margin-top: 10px;
+    }
+
+    /**************** Menu part end ****************/
+
+    /**************** Banner part start ****************/
+    .banner_icon {
+        bottom: -30px;
+    }
+
+    /**************** Banner part end ****************/
+
+    /**************** About part start ****************/
+    #about_part {
+        padding: 80px 0;
+    }
+
+    .about_text {
+        margin-top: 16px;
+    }
+
+    /**************** About part end ****************/
+
+    /**************** Service part start ****************/
+
+    #service_part {
+        padding: 80px 0;
+    }
+
+    .service_icon i {
+        font-size: 40px;
+    }
+
+    .service_text h5 {
+        font-size: 20px;
+    }
+
+    .service_text p {
+        font-size: 15px;
+    }
+
+    /**************** Service part end ****************/
+
+    /**************** Protfolio part start ****************/
+    #protfolio_part {
+        padding: 80px 0;
+    }
+
+    /**************** Protfolio part end ****************/
+
+    /**************** Contact part start ****************/
+    #contact_part {
+        padding: 80px 0 80px;
+    }
+
+    /**************** Contact part end ****************/
+
+    /**************** Banner part start ****************/
+    /**************** Banner part end ****************/
+
+}
+
+@media(max-width: 575px) {
+
+    /**************** Menu part start ****************/
+
+    .main_menu button i {
+        color: #f1f5f4;
+        font-size: 22px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        line-height: 40px;
+        margin-left: 0;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav .nav-item .nav-link::before {
+        display: none;
+    }
+
+    .main_menu #navbarSupportedContent .navbar-nav {
+        background: #000;
+        margin-top: 7px;
+        padding: 15px 0;
+    }
+
+    .menu_mar {
+        margin-top: 10px;
+    }
+
+    /**************** Menu part end ****************/
+
+    /**************** Banner part start ****************/
+
+    .banner_main {
+        padding: 150px 0 180px;
+    }
+
+    .banner_text h3 {
+        font-size: 24px;
+    }
+
+    .banner_text h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .banner_text a {
+        font-size: 18px;
+        padding: 0.6rem 2rem;
+    }
+
+    .banner_icon {
+        bottom: 60px;
+        right: 30px;
+    }
+
+
+    /**************** Banner part end ****************/
+
+    /**************** About part start ****************/
+
+    #about_part {
+        padding: 50px 0;
+    }
+
+    .title_head h2 {
+        font-size: 35px;
+    }
+
+    .about_text {
+        margin-top: 16px;
+    }
+
+    .about_text p {
+        line-height: 26px;
+    }
+
+    .counter_part {
+        border-right: 0;
+        border-bottom: 1px dotted #8e9a9d;
+    }
+
+    /**************** About part end ****************/
+
+
+    /**************** Service part start ****************/
+
+    #service_part {
+        padding: 50px 0;
+    }
+
+    /**************** Service part end ****************/
+
+    /**************** Protfolio part start ****************/
+    #protfolio_part {
+        padding: 50px 0;
+    }
+
+    /**************** Protfolio part end ****************/
+
+    /**************** Contact part start ****************/
+    #contact_part {
+        padding: 50px 0;
+    }
+
+    /**************** Contact part end ****************/
+
+}
