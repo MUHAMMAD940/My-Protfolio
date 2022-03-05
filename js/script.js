@@ -3,7 +3,8 @@ $(function () {
     var typed = new Typed('.type', {
         strings: [
             'Muhammad',
-            'Designer',
+            'SEO Consultant',
+            'Digital Marketer',
             'Freelancer'
         ],
         typeSpeed: 80,
@@ -15,8 +16,8 @@ $(function () {
     var typed = new Typed('.extra', {
         strings: [
             'Muhammad',
-            'Designer',
-            'Developer',
+            'SEO Consultant',
+            'Digital Marketer',
             'Freelancer'
         ],
         typeSpeed: 80,
